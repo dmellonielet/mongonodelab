@@ -15,8 +15,8 @@ var Server = mongo.Server,
     Db = mongo.Db,
     BSON = mongo.BSONPure;
 
-var server = new Server('ds061620.mongolab.com',61620,{auto_reconnect: true});
-db = new Db('larkins', server);
+var server = new Server('ds061620.mongolab.com',061620,{auto_reconnect: true});
+db = new Db('nielet', server);
 
 
 db.open(function(err, db) {
